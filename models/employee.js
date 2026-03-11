@@ -1,15 +1,17 @@
 'use strict';
 
 import logger from "../utils/logger.js";
+import JsonStore from "./json-store.js";
 
-const displayEmployee = {
-    store: new viewEmployee('./models/employee.json', {info: {}}),
-    collection: 'info',
-    array: 'creators',
+const viewEmployee = {
+    store: new JsonStore('./models/employee.json', {employees: []}),
+    collection: 'employees',
+    array: 'employees',
 
     getAppInfo(){
         return this.store.findAll(this.collection);
-    }
+    },
+
 };
 
-export default displayEmployee;
+export default viewEmployee;
