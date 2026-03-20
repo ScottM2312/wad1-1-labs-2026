@@ -1,14 +1,17 @@
 'use strict';
 
-import { create } from 'express-handlebars'
+import { create } from 'express-handlebars';
 import express from 'express';
+import bodyParser from 'body-parser';
 import routes from './routes.js'; 
 import logger from './utils/logger.js';
 
 const app = express();
 const port = 3000;
 
-app.use(express.static("public"))
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: false, }));
+
 const handlebars = create({extname: '.hbs'});
 app.engine(".hbs", handlebars.engine);
 app.set("view engine", ".hbs");
