@@ -47,14 +47,14 @@
     {
       "id": "03",
       "title": "Beethoven Unfinished Symphonies",
-      "rating": 3,
+      "rating": 4,
       "songs": []
     },
     {
-      "id": "5d7bd92d-e6cd-4e42-ac13-7fd697f22bbe",
+      "id": "0469d457-7acb-4a70-9def-3b643611beb6",
       "title": "Beethoven Symphonies",
-      "rating": "5",
-      "date": "2026-03-22T19:22:14.331Z",
+      "rating": "3",
+      "date": "2026-03-25T16:41:25.049Z",
       "songs": []
     }
   ]
