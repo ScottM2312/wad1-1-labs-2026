@@ -8,7 +8,7 @@ const viewEmployee = {
     collection: 'employees',
     array: 'employees',
 
-    getAppInfo(){
+    getEmployees(){
         return this.store.findAll(this.collection);
     },
 

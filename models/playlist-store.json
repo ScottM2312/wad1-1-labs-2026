@@ -1,60 +1,34 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "rating": 4,
+      "id": "71d495e3-8cab-47ff-8fbe-b6ecd8d1c2fe",
+      "title": "Homer's New Playlist",
+      "rating": "4",
+      "date": "2026-04-15T15:29:02.709Z",
       "songs": []
     },
     {
-      "id": "0469d457-7acb-4a70-9def-3b643611beb6",
-      "title": "Beethoven Symphonies",
-      "rating": "3",
-      "date": "2026-03-25T16:41:25.049Z",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "a8a23b92-eb2b-4d55-b993-c39fb4a58f25",
+      "title": "Marge's New Playlist",
+      "rating": "4",
+      "date": "2026-04-15T15:37:43.291Z",
+      "songs": []
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "a9a3c69e-f607-42a5-ab76-09c82277fb9d",
+      "title": "Homer's New Playlist",
+      "rating": "4",
+      "date": "2026-04-15T15:38:33.146Z",
+      "songs": []
+    },
+    {
+      "userid": "4e96bada-fd79-46cb-8add-659017d7008f",
+      "id": "e5178a50-db78-4b76-83cf-7f903c7b37d1",
+      "title": "Scott's New Playlist",
+      "rating": "4",
+      "date": "2026-04-15T15:41:02.059Z",
       "songs": []
     }
   ]
