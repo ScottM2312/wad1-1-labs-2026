@@ -10,6 +10,9 @@
     "node",
     "express"
   ],
+  "engines": {
+    "node": ">=22.22.2 <23"
+  },
   "author": "Mary Lyng",
   "license": "ISC",
   "description": "A little playlist maker",
