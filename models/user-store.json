@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "firstName": "homer",
-      "lastName": "simpson",
-      "email": "homer@simpson.com",
-      "password": "secret",
-      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
-    },
-    {
       "firstName": "marge",
       "lastName": "simpson",
       "email": "marge@simpson.com",
@@ -20,6 +13,17 @@
       "email": "scott@mitchell.com",
       "password": "secret",
       "id": "4e96bada-fd79-46cb-8add-659017d7008f"
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "7a5fe11b-ab15-403e-9392-992af2b7a03a",
+      "picture": {
+        "url": "http://res.cloudinary.com/dowxqhv5o/image/upload/v1777389258/yd7sc8e32sofp8cfkn7v.webp",
+        "public_id": "yd7sc8e32sofp8cfkn7v"
+      }
     }
   ]
 }

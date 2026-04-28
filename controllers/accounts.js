@@ -32,7 +32,7 @@ const accounts = {
  //signup function to render signup page
   signup(request, response) {
     const viewData = {
-      title: 'Login to the Service',
+      title: 'Signup to the Service',
     };
     response.render('signup', viewData);
   },
@@ -41,9 +41,10 @@ const accounts = {
   register(request, response) {
     const user = request.body;
     user.id = uuidv4();
-    userStore.addUser(user);
-    logger.info('registering' + user.email);
-    response.redirect('/');
+    userStore.addUser(user, request.files.picture, function(){
+      response.redirect('/')
+    });
+    
   },
   
   //authenticate function to check user credentials and either render the login page again or the start page.

@@ -41,6 +41,7 @@ const dashboard = {
       const viewData = {
         title: "Playlist App Dashboard",
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        picture: loggedInUser.picture,
         playlists: sortField ? sorted : playlists,
         search: searchTerm,
         titleSelected: request.query.sort === "title",
@@ -57,7 +58,6 @@ const dashboard = {
 
   addPlaylist(request, response) {
     const loggedInUser = accounts.getCurrentUser(request);
-    logger.debug(loggedInUser.id);
     const timestamp = new Date();
     
     const newPlaylist = {
@@ -68,16 +68,19 @@ const dashboard = {
 	    date: timestamp,
       songs: []
     };
-    playlistStore.addPlaylist(newPlaylist);
-    response.redirect('/dashboard');
+    playlistStore.addPlaylist(newPlaylist, request.files.picture, function(){
+      response.redirect("/dashboard")
+    });
   },
 
   deletePlaylist(request, response) {
     const playlistId = request.params.id;
     logger.debug(`Deleting Playlist ${playlistId}`);
-    playlistStore.removePlaylist(playlistId);
-    response.redirect("/dashboard");
+    playlistStore.removePlaylist(playlistId, function() {
+      response.redirect("/dashboard");
+    });
   },
+
 };
 
 export default dashboard;

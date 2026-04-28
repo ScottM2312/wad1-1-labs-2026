@@ -30,6 +30,36 @@
       "rating": "4",
       "date": "2026-04-15T15:41:02.059Z",
       "songs": []
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "95a8938f-b28f-423b-b062-d5186230cd34",
+      "title": "tes",
+      "rating": "3",
+      "date": "2026-04-28T15:13:47.179Z",
+      "songs": [],
+      "picture": {
+        "url": "http://res.cloudinary.com/dowxqhv5o/image/upload/v1777389227/rpmdnsrwv0iuco1uv1be.webp",
+        "public_id": "rpmdnsrwv0iuco1uv1be"
+      }
+    },
+    {
+      "userid": "7a5fe11b-ab15-403e-9392-992af2b7a03a",
+      "id": "6af0ff2b-d028-4136-9b32-3cad9b82188c",
+      "title": "Homer's New Playlist",
+      "rating": "4",
+      "date": "2026-04-28T15:17:20.005Z",
+      "songs": [
+        {
+          "id": "4e24902b-f951-4c73-a85a-aa36b62306f5",
+          "title": "Sweet Victory",
+          "artist": "David Glen Eisley"
+        }
+      ],
+      "picture": {
+        "url": "http://res.cloudinary.com/dowxqhv5o/image/upload/v1777389440/m0s6q1jfjafidfphfujy.webp",
+        "public_id": "m0s6q1jfjafidfphfujy"
+      }
     }
   ]
 }
